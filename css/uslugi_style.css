@@ -112,8 +112,7 @@ input {
 .header__container {
     max-width: 1920px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+    display: flex;
     align-items: center;
     gap: 2rem;
 }
@@ -142,11 +141,12 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav__item {
-    
+    display: flex;
+    align-items: center;
     gap: 0.25rem;
     font-weight: 500;
     color: #ffffff;
@@ -157,8 +157,8 @@ input {
     height: auto;
     display: flex;
     align-items: center;
-  margin-top: 0px;
-  vertical-align: middle;
+    margin-top: 0px;
+    vertical-align: middle;
 }
 .nav__item:hover {
     color: #2378DE;
