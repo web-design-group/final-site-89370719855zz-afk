@@ -169,7 +169,7 @@ img {
     gap: 0.25rem;
 }
 .nav__item:hover {
-    color: #2378DE;
+    color: #67acff;
 }
 
 .nav__item svg {
@@ -201,10 +201,11 @@ img {
     font-weight: 600;
     color: #ffffff;
     transition: color 0.3s;
+    
 }
 
 .header__phone:hover {
-    color: #2378DE;
+    color: #67acff;
 }
 
 .header__contact-btn {
