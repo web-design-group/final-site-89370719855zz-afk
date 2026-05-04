@@ -69,6 +69,8 @@ input {
 
 /* ===== HEADER ===== */
 .header {
+   display: flex;
+  align-items: center;
     background-color: #2378DE;
     padding: 1rem 2rem;
     position: sticky;
