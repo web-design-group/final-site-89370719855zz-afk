@@ -242,7 +242,7 @@ body {
 .card6 {
     background: #2378DE;
     height: 30px;
-     margin-top: 0px;
+     margin-top: 10px;
      margin-bottom: 100px;
     text-align: center;
 }
@@ -260,7 +260,7 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 60px 0 100px;
     margin-top: 10px;
@@ -269,7 +269,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    padding: 110px ;
+    padding: 80px ;
    transition: all 0.3s;
 }
 .nav1 a:hover {
