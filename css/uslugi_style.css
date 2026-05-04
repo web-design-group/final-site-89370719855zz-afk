@@ -154,12 +154,10 @@ input {
     transition: color 0.3s;
 }
     img {
-    width: 7%;
+    width: 15%;
     height: auto;
     display: flex;
     align-items: center;
-  margin-right: 60px;
-  font-weight: 100px;
   margin-top: 0px;
   vertical-align: middle;
 }
