@@ -112,7 +112,8 @@ input {
 .header__container {
     max-width: 1920px;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 2rem;
 }
@@ -134,14 +135,21 @@ input {
     background-color: #f3f4f6;
 }
 
-
+img {
+    width: 7%;
+    height: auto;
+    display: inline;
+  margin-right: 60px;
+  margin-top: 0px;
+  vertical-align: middle;
+}
 
 /* Navigation */
 .nav50 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav__item {
@@ -152,13 +160,10 @@ input {
     color: #ffffff;
     transition: color 0.3s;
 }
-    img {
-    width: 15%;
-    height: auto;
+.nav__item1 {
     display: flex;
     align-items: center;
-    margin-top: 0px;
-    vertical-align: middle;
+    gap: 0.25rem;
 }
 .nav__item:hover {
     color: #2378DE;
@@ -176,7 +181,7 @@ input {
 .header__right {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .header__telegram {
