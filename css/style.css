@@ -80,10 +80,11 @@ input {
 }
 
 .header__container {
+   display: flex;
+  align-items: center;
     max-width: 1920px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+    
     align-items: center;
     gap: 2rem;
 }
