@@ -138,7 +138,8 @@ input {
 img {
     width: 7%;
     height: auto;
-    display: inline;
+    display: flex;
+    align-items: center;
   margin-right: 60px;
   font-weight: 100px;
   margin-top: 0px;
@@ -164,7 +165,7 @@ img {
 .nav__item1 {
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    
 }
 
 .nav__item:hover {
