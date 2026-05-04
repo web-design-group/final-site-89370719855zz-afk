@@ -244,7 +244,6 @@ body {
     height: 30px;
      margin-top: 10px;
      margin-bottom: 100px;
-    text-align: center;
 }
 .container{
    
@@ -256,20 +255,17 @@ body {
 }
 
 .nav1 {
-   display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 0 100px;
-    margin-top: 10px;
+    padding: 0px 0 80px;
+    margin-top: 0px;
 }
 .nav1 a{
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
-    padding: 80px ;
+    padding: 3px 100px;
    transition: all 0.3s;
 }
 .nav1 a:hover {
