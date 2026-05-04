@@ -539,23 +539,21 @@ margin-bottom: 20px;
 }
 
 .feedback{
-  margin-left: 150px;
-  width: min(1920px, 70%);
    background: #82B6F4;
     color: #ffffff;
     border: 3px solid var(--r-lg);
     border-radius: 70px;
     padding: 80px 90px;
-    margin-bottom: 100px;
+    margin: 100px 0;
     box-shadow: var(--shadow);
     display: flex;
-    justify-content: left; 
+    justify-content: center; 
     align-items: center;
 
 }
 .feedback h2{
     color: #ffffff;
-    padding: 150px 80px;
+    padding: 100px 80px;
     margin: 0 3px;
     display: flex;
     flex-direction: column;
@@ -573,7 +571,7 @@ line-height: 50px;
 .form-group input:not([type="radio"]):not([type="checkbox"]),
 .form-group select, 
 .form-group textarea {
-    width: 100%;
+    width: 95%;
     padding: 1rem 0 1rem;
     background: #ffffffd5;
     border: 0.5px solid var(--border);
@@ -603,14 +601,13 @@ background: #e6effc;
     margin-bottom: 0.5rem;
     text-align: center;
     color: #ffffffdd;
-    font-size: 18px;
 }
 .form-actions {
     display: flex;
     gap: 3rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    margin-right: 132px;
+    margin-right: 145px;
     flex-wrap: wrap;
     justify-content: right; 
     align-items: right;
@@ -648,9 +645,6 @@ transform: translateY(-1px);
     background: var(--card);
     color: #ffffff;
 transform: translateY(-1px);
-}
-.form-group checkbox-group {
-  font-size: 20px;
 }
 
 
