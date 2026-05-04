@@ -163,9 +163,15 @@ img {
     transition: color 0.3s;
 }
 .nav__item1 {
-    display: flex;
-    align-items: center;
     
+    align-items: center;
+    width: 7%;
+    height: auto;
+    display: inline;
+  margin-right: 60px;
+  font-weight: 100px;
+  margin-top: 0px;
+  vertical-align: middle;
 }
 
 .nav__item:hover {
