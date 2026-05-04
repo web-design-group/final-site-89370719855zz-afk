@@ -107,7 +107,8 @@ input {
 img {
     width: 7%;
     height: auto;
-    display: inline;
+    display: flex;
+    align-items: center;
   margin-right: 60px;
   font-weight: 100px;
   margin-top: 0px;
