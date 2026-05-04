@@ -241,12 +241,12 @@ body {
     height: auto;
 }
 .card6 {
-   display: flex;
-   align-items: center;
+   
     background: #2378DE;
     height: 30px;
      margin-top: 10px;
      margin-bottom: 100px;
+    text-align: center;
 }
 .container{
    
