@@ -743,8 +743,8 @@ background: #e6effc;
     margin-top: 1.5rem;
     margin-right: 145px;
     flex-wrap: wrap;
-    justify-content: right; 
-    align-items: right;
+    justify-content: center; 
+    align-items: center;
 }
 
 .submit-btm,
@@ -787,6 +787,8 @@ transform: translateY(-1px);
 
 }
 .card7 {
+   display: flex;
+   align-items: center;
     background: #2378DE;
     height: 40px;
     font-size: 20px;
