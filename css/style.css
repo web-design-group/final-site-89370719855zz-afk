@@ -937,27 +937,9 @@ transform: translateY(-1px);
   position: relative;
 }
 
-.overlay {
-     background: #ffffff;
-    color: #0004DF;
-    border: 5px solid var(--r-lg);
-    border-radius: 70px;
-    padding: 7px 9px;
-    box-shadow: var(--shadow);
-    text-align: left;
-    font-size: 11px;
-    line-height: 13px;
-  position: absolute;
-  top: 36%;
-  left: 14%;
-  transform: translate(-50%, -50%);
-  display: none; /* Текст изначально скрыт */
-}
-
-.image-container:hover .overlay {
-  display: block; /* Текст становится видимым при наведении */
-}
 .overlay1 {
+    display: flex;
+    justify-content: center;
      background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -969,7 +951,7 @@ transform: translateY(-1px);
   position: absolute;
   top: 40%;
   left: 38%;
-  transform: translate(-50%, -50%);
+  transform: translate(-70%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay1 {
@@ -977,6 +959,8 @@ transform: translateY(-1px);
 }
 
 .overlay2 {
+    display: flex;
+    justify-content: center;
      background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -987,8 +971,8 @@ transform: translateY(-1px);
     font-size: 11px;
   position: absolute;
   top: 36%;
-  left: 61%;
-  transform: translate(-50%, -50%);
+  left: 60.5%;
+  transform: translate(-58%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay2 {
@@ -996,6 +980,8 @@ transform: translateY(-1px);
 }
 
 .overlay3 {
+    display: flex;
+    justify-content: center;
      background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -1006,14 +992,16 @@ transform: translateY(-1px);
     font-size: 11px;
   position: absolute;
   top: 36%;
-  left: 82%;
-  transform: translate(-50%, -50%);
+  left: 83%;
+  transform: translate(-65%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay3 {
   display: block; /* Текст становится видимым при наведении */
 }
 .overlay4 {
+    display: flex;
+    justify-content: center;
      background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -1026,7 +1014,7 @@ transform: translateY(-1px);
   position: absolute;
   top: 87%;
   left: 26.5%;
-  transform: translate(-50%, -50%);
+  transform: translate(-70%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay4 {
@@ -1034,6 +1022,8 @@ transform: translateY(-1px);
 }
 
 .overlay5 {
+    display: flex;
+    justify-content: center;
      background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -1046,7 +1036,7 @@ transform: translateY(-1px);
   position: absolute;
   top: 87%;
   left: 49.5%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay5 {
@@ -1054,6 +1044,8 @@ transform: translateY(-1px);
 }
 
 .overlay6 {
+    display: flex;
+    justify-content: center;
     background: #ffffff;
     color: #0004DF;
     border: 5px solid var(--r-lg);
@@ -1064,8 +1056,8 @@ transform: translateY(-1px);
     font-size: 11px;
   position: absolute;
   top: 87%;
-  left: 73%;
-  transform: translate(-50%, -50%);
+  left: 73.5%;
+  transform: translate(-55%, -50%);
   display: none; /* Текст изначально скрыт */
 }
 .image-container:hover .overlay6 {
