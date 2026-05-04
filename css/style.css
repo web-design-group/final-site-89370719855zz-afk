@@ -72,7 +72,7 @@ input {
    display: flex;
   align-items: center;
     background-color: #2378DE;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -81,12 +81,10 @@ input {
 
 .header__container {
    display: flex;
-  align-items: center;
+   align-items: center;
     max-width: 1920px;
     margin: 0 auto;
-    
-    align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .header__left {
