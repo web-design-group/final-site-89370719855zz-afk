@@ -784,6 +784,8 @@ transform: translateY(-1px);
 }
 
 .container {
+  display: flex;
+    align-items: center;
     width: min(1920px, 82%);
     margin: 0 auto;
 
