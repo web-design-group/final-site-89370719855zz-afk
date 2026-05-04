@@ -78,15 +78,17 @@ input {
 }
 
 .header__container {
-     max-width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     gap: 2rem;
 }
 
 .header__left {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
@@ -103,10 +105,12 @@ input {
 }
 
 img {
-    width: 7%;
+    width: 8%;
     height: auto;
-    display: inline;
-  margin-right: 100px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-right: 10px;
   margin-top: 0px;
   vertical-align: middle;
 }
@@ -133,7 +137,7 @@ img {
     gap: 0.25rem;
 }
 .nav__item:hover {
-    color: #2378DE;
+    color: #67acff;
 }
 
 .nav__item svg {
@@ -165,10 +169,11 @@ img {
     font-weight: 600;
     color: #ffffff;
     transition: color 0.3s;
+    
 }
 
 .header__phone:hover {
-    color: #2378DE;
+    color: #67acff;
 }
 
 .header__contact-btn {
@@ -185,7 +190,6 @@ img {
     background-color: #ffffff83;
     color: #ffffff;
 }
-
 .scale-down {
     width: 2%;
     height: auto;
@@ -199,7 +203,7 @@ img {
 .navigator {
     margin-top: 0px;
   margin-left: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   gap: 30px;
   height: 90px;
   
