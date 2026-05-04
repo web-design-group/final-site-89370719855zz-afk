@@ -240,10 +240,9 @@ body {
     height: auto;
 }
 .card6 {
-   
     background: #2378DE;
     height: 30px;
-     margin-top: 10px;
+     margin-top: 0px;
      margin-bottom: 100px;
     text-align: center;
 }
