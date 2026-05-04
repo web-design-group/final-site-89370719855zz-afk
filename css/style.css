@@ -219,6 +219,8 @@ body {
   line-height: 1.6;
 }
 .container {
+   display: flex;
+  align-items: center;
     width: min(1920px, 82%);
     margin: 0 auto;
 
