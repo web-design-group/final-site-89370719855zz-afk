@@ -863,10 +863,9 @@ transform: translateY(-1px);
     box-shadow: var(--shadow);
     text-align: left;
     font-size: 11px;
-    line-height: 13px;
   position: absolute;
   top: 36%;
-  left: 14%;
+  left: 19%;
   transform: translate(-80%, -50%);
   display: none; /* Текст изначально скрыт */
 }
