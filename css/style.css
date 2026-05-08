@@ -790,7 +790,7 @@ transform: translateY(-1px);
     height: 40px;
     font-size: 20px;
     text-align: left;
-    padding: 50px 40px;
+    padding: 40px 40px;
     height: 15px;
     
 }
@@ -799,7 +799,7 @@ transform: translateY(-1px);
   margin-left: 0px;
     border-bottom: 2px solid rgb(255, 255, 255); 
     font-weight: normal; 
-     padding-bottom: 20px; 
+     padding-bottom: 10px; 
      display: flex;
     justify-content: center; 
     align-items: center;
@@ -813,8 +813,10 @@ transform: translateY(-1px);
 .navv5 {
   text-decoration: none;
   color: #ffffff;
-  padding: 20px 60px 50px;
+  padding: 20px 50px 50px;
 }
+
+
 .card8 {
     background: #2378DE;
     height: 120px;
@@ -822,14 +824,13 @@ transform: translateY(-1px);
     margin-left: 0px;
     text-align: left;
     padding: 30px 50px;
-    
     display: flex;
     justify-content: center; 
-    align-items: left;
+    align-items: center;
 }
 .footer__item {
     transition: all 0.3s;
-    padding: 0px 75px 10px;
+    padding: 0px 65px 10px;
 }
 .footer__title {
     font-size: 1.125rem;
