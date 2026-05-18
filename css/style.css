@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
+html, body {
+    height: 100%;
+}
 :root {
   --bg: #FFFFFF;
   --panel: #2378DE;
@@ -21,6 +26,33 @@
   --r-pill: 1500px;
 
   --shadow: 0 3px 6px #c0bec8;
+}
+/* ===== ANIMATIONS ===== */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 a {
@@ -68,7 +100,6 @@ input {
 }
 
 /* ===== HEADER ===== */
-/* ===== HEADER ===== */
 .header {
     background-color: #2378DE;
     padding: 1rem 2rem;
@@ -106,13 +137,17 @@ input {
 }
 
 img {
-    width: 8%;
+    max-width: 100%;
     height: auto;
-     
-  margin-right: 10px;
-  margin-top: 0px;
-  vertical-align: middle;
-  padding: 10px 50px;
+    vertical-align: middle;
+}
+
+.header__logo {
+    width: 60px;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navigation */
@@ -214,29 +249,9 @@ img {
   font-weight: 500;
   vertical-align: middle;
 }
-.scale-down {
-    width: 2%;
+.card5 {
+    background: #2378DE;
     height: auto;
-    margin-left: 30px;
-    margin-right: 9px;
-    margin-top: 3px;
-    display: inline;
-    vertical-align: middle;
-}
-
-.navigator {
-    margin-top: 0px;
-  margin-left: 60px;
-  margin-bottom: 100px;
-  gap: 30px;
-  height: 90px;
-  
-}
-.nav-item1 {
-  display: inline;
-  margin-right: 10px;
-  font-weight: 500;
-  vertical-align: middle;
 }
 
 body {
