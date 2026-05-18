@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+html, body {
+    height: 100%;
+}
 :root {
-  --blue:        #2378DE;
-  --blue-dark:   #045CA3;
-  --blue-light:  #BCDBFF;
-  --accent:      #0004DF;
-  --cream:       #F4ECBE;
-  --white:       #FFFFFF;
-  --black:       #000000;
-  --navy:        #1a2a4a;   /* цвет гвоздя — тёмно-синий */
-  --bg:          #F5F9FF;
-   --text:var(--card);
+  --bg: #FFFFFF;
+  --panel: #2378DE;
+  --card: #272434;
+  --border: #2A5CFF;
+  
+  --text:var(--card);
   --muted:#5e6a8d8f;
 
   --accent:var(--border);
@@ -25,20 +27,6 @@
 
   --shadow: 0 3px 6px #c0bec8;
 }
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: var(--bg);
-  color: var(--black);
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-
 /* ===== ANIMATIONS ===== */
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
@@ -83,7 +71,33 @@ input {
     font-family: inherit;
 }
 
+/* ===== ANIMATIONS ===== */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 /* ===== HEADER ===== */
 .header {
@@ -123,15 +137,17 @@ input {
 }
 
 img {
-    width: 8%;
+    max-width: 100%;
     height: auto;
-     display: flex;
-    align-items: center;
-    justify-content: center;
-  margin-right: 10px;
-  margin-top: 0px;
-  vertical-align: middle;
-    padding: 10px 50px;
+    vertical-align: middle;
+}
+
+.header__logo {
+    width: 60px;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navigation */
