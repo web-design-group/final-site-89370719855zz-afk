@@ -124,12 +124,17 @@ input {
 }
 
 img {
-    width: 8%;
+    max-width: 100%;
     height: auto;
-  margin-right: 10px;
-  margin-top: 0px;
-  vertical-align: middle;
-  padding: 10px 50px;
+    vertical-align: middle;
+}
+
+.header__logo {
+    width: 60px;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navigation */
@@ -206,6 +211,34 @@ img {
 .header__contact-btn:hover {
     background-color: #ffffff83;
     color: #ffffff;
+}
+.scale-down {
+    width: 2%;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 9px;
+    margin-top: 3px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.navigator {
+    margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  gap: 30px;
+  height: 90px;
+  
+}
+.nav-item1 {
+  display: inline;
+  margin-right: 10px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.card5 {
+    background: #2378DE;
+    height: auto;
 }
 .scale-down {
     width: 2%;
